@@ -18,8 +18,27 @@ export default function Footer() {
             sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
           />
        </div>
-       
-      <a className={styles.link} href="https://code-v.fr" target="_blank" rel="noopener noreferrer">
+       <p className={styles.socialTitle}> Suivez-nous sur les réseaux</p>
+       <div className={styles.social}>
+         
+            <Link href='https://www.instagram.com/klenn_couverture/' className={styles.p} >
+              <Image 
+                width={40}
+                height={40}
+                src="/instagram.svg"
+                alt="logo instagram"
+              />
+            </Link>
+            <Link href='https://www.facebook.com/profile.php?id=61575584465166&locale=fr_FR' className={styles.p} >
+              <Image 
+                width={40}
+                height={40}
+                src="/facebook.svg"
+                alt="logo facebook"
+              />
+            </Link>
+       </div>
+      <Link className={styles.link} href="https://code-v.fr" target="_blank" rel="noopener noreferrer">
         Réalisé par <span className={styles.codev}> Codev </span>
       </Link>
       <div className={styles.mentions}>
