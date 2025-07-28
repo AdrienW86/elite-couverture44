@@ -60,3 +60,15 @@
     display: flex;
     justify-content: center;
 }
+
+.mentions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link2 {
+    color: white;
+    margin: 0 5px;
+    text-decoration: underline;
+}
